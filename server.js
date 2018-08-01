@@ -1,4 +1,5 @@
-var app = require('express');
+var express = require('express');
+var app = express();
 
 app.get('/', function (req, res, next) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
